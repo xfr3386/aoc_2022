@@ -79,7 +79,6 @@ def part_two(contents):
     
     totalScore = 0
     for round in rounds:
-        print(round)
         ending = round[1]
         opponent = round[0]
         if ending == 'X':
